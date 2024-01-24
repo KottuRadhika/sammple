@@ -1,0 +1,13 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+li:hover{
+    background-color: blue; 
+}
+tr:hover{
+    background-color: darkcyan;
+}
+section{
+    background-color:pink;
+}

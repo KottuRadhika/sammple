@@ -1,0 +1,30 @@
+section{
+    background-image: url("https://tse2.explicit.bing.net/th?id=OIP.xQBuDChP4l539ipltTzykQHaEK&pid=Api&P=0&h=180");
+}
+h1{
+    text-align: center;
+    color: red;
+    font-style: oblique;
+    background-color: coral;
+    
+
+}
+.box{
+    background-image:url("https://tse2.mm.bing.net/th?id=OIF.N6NdPoPKS7YlfuRnIz4WZA&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:250px;
+    height:200px;
+    border-radius:50%;
+    box-shadow: 10px 50px 10px 5px;
+    transition-property: all;
+    animation:images 5s infinite alternate;
+}
+@keyframes images{
+    0%{ background-image:url("https://tse2.mm.bing.net/th?id=OIF.N6NdPoPKS7YlfuRnIz4WZA&pid=Api&P=0&h=180");left:0px;top:0px;}
+    20%{background-image:url("https://images.unsplash.com/photo-1584208123923-cc027813cbcb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW5zJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D");left:50px;top:50px;}
+    40%{background-image:url("https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_640.jpg");left:70px;top:80px;}
+    60%{background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fjubleelens.com%2Fhi%2Fproducts%2Fstylish-spectacles-black-gold-fresh-look-square-unisex-frame-look-adorable&psig=AOvVaw0Gs3ta1btk0OkDocSnvYu9&ust=1706201404928000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDa-dm99oMDFQAAAAAdAAAAABAD");left:60px;top:70px;}
+    80%{background-image:url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=");left:100px;top:20px;}
+}
+
